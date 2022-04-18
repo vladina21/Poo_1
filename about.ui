@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1095</width>
-    <height>631</height>
+    <width>1222</width>
+    <height>1286</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <string notr="true">QScrollBar:vertical{
 
 border:none;
-background-color: rgb(255, 237, 181);
+background-color: rgb(255, 251, 231);
 width: 14px;
 margin: 15px 0 15px 0;
 border-radius:0px;
@@ -25,7 +25,7 @@ border-radius:0px;
 QScrollBar::handle:vertical{
 
 	
-background-color: rgb(143, 170, 107);
+background-color: rgb(235, 227, 181);
 min-height:30px;
 border-radius:7px;
 }
@@ -33,18 +33,19 @@ border-radius:7px;
 QScrollBar::handle:vertical:hover
 {
 	
-	background-color: rgb(124, 140, 98);
+	
+	background-color: rgb(227, 207, 161);
 }
 QScrollBar::handle:vertical:pressed
 {
 	
-	background-color: rgb(99, 129, 86);
+	background-color: rgb(227, 207, 161);
 }
 
 
 QScroolBar::sub-line:vertical{
 border:none;
-background-color: rgb(99, 129, 86);
+background-color: rgb(255, 251, 231);
 height:15px;
 border-top-left-radius:7px;
 border-top-right-radius:7px;
@@ -54,15 +55,15 @@ subcontrol-origin:margin;
 QScrollBar::sub-line:vertical:hover
 {
 	
-	background-color: rgb(99, 129, 86);
+	background-color: rgb(255, 251, 231);
 }
 QScrollBar::sub-line:vertical:pressed
 {
-	background-color: rgb(99, 129, 86);
+	background-color: rgb(255, 251, 231);
 }
 QScrollBar::add-line:vertical{
 border:none;
-background-color: rgb(255, 237, 181);
+background-color: rgb(255, 251, 231);
 height:15px;
 border-bottom-left-radius:7px;
 border-bottom-right-radius:7px;
@@ -72,11 +73,11 @@ subcontrol-origin:margin;
 QScrollBar::add-line:vertical:hover
 {
 	
-	background-color: rgb(255, 237, 181);
+	background-color: rgb(255, 251, 231);
 }
 QScrollBar::add-line:vertical:pressed
 {
-	background-color: rgb(255, 237, 181);
+	background-color: rgb(255, 251, 231);
 }
 
 QScrollBar::up-arrow:vertical,QScrollBar::down-arrow:vertical
@@ -173,7 +174,7 @@ background:none;
       <string notr="true">QScrollBar:vertical
 {
 border:none;
-background-color: rgb(255, 237, 181);
+	background-color: rgb(255, 251, 231);
 }</string>
      </property>
      <property name="frameShape">
@@ -186,9 +187,9 @@ background-color: rgb(255, 237, 181);
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>-1052</y>
         <width>1222</width>
-        <height>1222</height>
+        <height>4022</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -197,13 +198,13 @@ background-color: rgb(255, 237, 181);
          <property name="minimumSize">
           <size>
            <width>1200</width>
-           <height>1200</height>
+           <height>4000</height>
           </size>
          </property>
          <property name="styleSheet">
           <string notr="true">#frame{
 
-	background-color: rgb(255, 252, 178);
+	background-color: rgb(255, 251, 207);
 }</string>
          </property>
          <property name="frameShape">
@@ -212,6 +213,879 @@ background-color: rgb(255, 237, 181);
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>-10</y>
+            <width>1191</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>540</x>
+             <y>40</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Segoe UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string>LOUVRE</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>450</y>
+            <width>1151</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>The Louvre is the world's largest museum and houses one of the most impressive art collections in history. The magnificent, baroque-style palace and museum — LeMusée</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>130</y>
+            <width>501</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#groupBox_2
+
+{border-image: url(:/LOUVRE9.jpg);
+	
+}
+</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="geometry">
+           <rect>
+            <x>640</x>
+            <y>130</y>
+            <width>501</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#groupBox_3
+{border-image: url(:/luvre1.png);}</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>470</y>
+            <width>781</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>du Louvre in French — sits along the banks of the Seine River in Paris. It is one of the city's biggest tourist attractions.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>490</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>History of the Louvre</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>520</y>
+            <width>1151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>The Louvre was originally built as a fortress in 1190, but was reconstructed in the 16th century to serve as a royal palace. &quot;Like many buildings, it was built and rebuilt over the</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>540</y>
+            <width>891</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>years,&quot; said Tea Gudek Snajdar, an Amsterdam-based art historian, museum docent and a blogger at Culture Tourist. </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>560</y>
+            <width>1151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>During its time as a royal residence, the Louvre saw tremendous growth. Nearly every monarch expanded it, according to History.com. Today, it covers a total area of 652,300 </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>580</y>
+            <width>1191</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>feet (60,600 square meters). In 1682, Louis XIV moved the royal residence to Versailles, and the Louvre became home to various art academies, offering regular exhibitions of </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>600</y>
+            <width>191</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>its members' works.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>620</y>
+            <width>1141</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>During the French Revolution, Louis XVI and his wife, Marie Antoinette, were forcibly removed from Versailles and imprisoned in Tuilleries Palace, which was then adjacent to </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>640</y>
+            <width>701</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>the Louvre, according to the Louvre’s official website. They were beheaded there in 1793. </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>660</y>
+            <width>1291</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>The National Assembly opened the Louvre as a museum in August 1793 with a collection of 537 paintings. The museum closed in 1796 because of structural problems with</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>680</y>
+            <width>1011</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>the building. Napoleon reopened the museum and expanded the collection in 1801, and the museum was renamed Musée Napoléon.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>700</y>
+            <width>281</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Louvre paintings &amp; other works</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>730</y>
+            <width>1161</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>The Louvre's collection includes Egyptian antiques, ancient Greek and Roman sculptures, paintings by the Old Masters (notable European artists from before 1800), and crown</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>750</y>
+            <width>1181</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>jewels and other artifacts from French nobles. Its works span the sixth century B.C. to the 19th century A.D. More than 35,000 works are on display at any given time. The displays</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>770</y>
+            <width>1171</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>are divided into eight departments: Near Eastern Antiquities; Egyptian Antiquities; Greek, Etruscan and Roman Antiquities; Islamic Art; Sculptures; Decorative Arts; Paintings; </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>790</y>
+            <width>781</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>and Prints and Drawings, according to the Louvre website.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>810</y>
+            <width>1161</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Without question, the Louvre's most famous work is Leonardo da Vinci's &quot;Mona Lisa,&quot; who enchants hordes of visitors with her enigmatic smile. This small, iconic painting</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>830</y>
+            <width>1171</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string> — it is only 21 by 30 inches (53 by 77 centimeters) is covered with bullet-proof glass and flanked by guards, according to the Louvre website. This protection is the result of it</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>850</y>
+            <width>691</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>being stolen in 1911. (It was recovered in 1913.)</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>890</y>
+            <width>271</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/mona_lisa.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>940</y>
+            <width>361</width>
+            <height>261</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/art3.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>930</y>
+            <width>421</width>
+            <height>281</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/art2.png);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_22">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>1240</y>
+            <width>191</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>The Louvre pyramid</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>1280</y>
+            <width>1101</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>In 1983, the Louvre underwent a renovation plan known as the Grand Louvre, according to History.com Part of the plan called for a new design for the main entrance.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>1300</y>
+            <width>1161</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Architect I.M. Pei was awarded the project, and he designed an underground lobby and modern glass pyramid structure in the courtyard.Inaugurated in 1988, the pyramid would</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>1320</y>
+            <width>1171</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>become a celebrated element of the landmark museum's design. &quot;It is my personal favorite,&quot; said Gudek Snajdar. &quot;Combining traditional style with modern architecture, it shows</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_26">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>1340</y>
+            <width>1151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>the Louvre's timeless beauty.&quot;In 1993, the Inverted Pyramid, a skylight dipping into the underground lobby, was unveiled.</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>1380</y>
+            <width>951</width>
+            <height>251</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/9.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_27">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>1640</y>
+            <width>321</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Why is Louvre so famous?</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_28">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>1670</y>
+            <width>1131</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>After more than two centuries as a royal palace, the Louvre is opened as a public museum in Paris by the French revolutionary government.Today, the Louvre's collection</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_29">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>1690</y>
+            <width>931</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>is one of the richest in the world, with artwork and artifacts representative of 11,000 years of human civilization and culture.</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>1720</y>
+            <width>411</width>
+            <height>261</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/queenb.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>1720</y>
+            <width>411</width>
+            <height>261</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/jayz.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_30">
+          <property name="geometry">
+           <rect>
+            <x>460</x>
+            <y>1990</y>
+            <width>151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 7pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Beyonce and Jay Z in Louvre</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_31">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2020</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Museum Rules</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_32">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2050</y>
+            <width>1151</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>VIGIPIRATE
+To ensure the safety of all visitors, the Louvre applies the preventative measures decided on by the French government for all public services. All visitors must undergo the 
+security checks at the museum entrances. 
+Suitcases and large bags are not allowed in the museum.l</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_33">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2130</y>
+            <width>1121</width>
+            <height>81</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>PHOTOGRAPHY
+You can take photos and videos in the permanent collections if they are for personal use. However, you are not allowed to use selfie sticks, flash or lighting.
+In the temporary exhibition galleries, it may be prohibited to take photos or videos of certain works.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_34">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2200</y>
+            <width>751</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>LEAVING THE MUSEUM
+In order to help us manage the number of visitors and queues, any exit is final.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_35">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2250</y>
+            <width>641</width>
+            <height>181</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>RESPECT THE ARTWORKS
+To ensure the safety of the artworks and other visitors, in the exhibition rooms you are not allowed to:
+
+-Drink;
+-Eat;
+-Smoke;
+-Make a lot of noise;
+-Touch the artworks;
+-Run.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_36">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2440</y>
+            <width>151</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Museum Lead</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_37">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2460</y>
+            <width>1161</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>The French president Emmanuel Macron has nominated Laurence des Cars, currently the president of the Musée d’Orsay, to helm the Louvre in a major shake-up at the 
+ Paris institution.
+The decision marks the first time a woman has been named for the top job at the Louvre. Des Cars will head across the Seine river to replace its current president Jean-Luc</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_38">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2530</y>
+            <width>1011</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Martinez, who was unsuccessful in his campaign for a third term.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_39">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2550</y>
+            <width>1141</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>The director will take up her new position on September 1, after beating out candidates Martinez, president of the Picasso museum Laurent Le Bon, and president of the</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_40">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2570</y>
+            <width>1151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guimet museum Sophie Makariou. The 54-year-old expert on 19th and early 20th century art is well-respected in the museum world, and oversaw the Musée d’Orsay’s </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_41">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2590</y>
+            <width>1031</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>landmark exhibition in 2019 “Black models: from Géricault to Matisse,” which focused on overlooked Black subjects and themes in major paintings.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_42">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2610</y>
+            <width>1121</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Des Cars took care to emphasize her respect for the Louvre’s current president Martinez, who has helmed the museum since 2013. He has been acting head since April 13</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_43">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2630</y>
+            <width>1071</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>while lobbying for his re-hiring as his prospects seemed increasingly tenuous. The two will overlap for several weeks to ensure a smooth transition.</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_10">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>2660</y>
+            <width>361</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/boss.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_44">
+          <property name="geometry">
+           <rect>
+            <x>460</x>
+            <y>2910</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 7pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Laurence des Cars</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_45">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>2930</y>
+            <width>331</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Organization and Museum Map</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_46">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>2970</y>
+            <width>1111</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Museum entrances
+The main entrance to the museum is the Louvre Pyramid. It is divided into 4 lines: visitors without tickets, visitors with tickets, cardholders (members, Ministry of Culture,
+Education Pass, ICOM, etc.) and priority access (PRM, staff, etc.).
+In case of crowds, access is also possible by the Carrousel du Louvre, the Passage Richelieu or the 
+Porte des Lions, depending on your profile. Remember to check on the map below the practicability of the chosen access:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_47">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>3110</y>
+            <width>1131</width>
+            <height>101</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Map of the museum
+When you arrive, the museum map is available free of charge at the museum information points. 
+Before your visit, remember to find out about any room closures. For more details on the day of your visit, you can contact us on 01 40 20 53 17.</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>3240</y>
+            <width>1031</width>
+            <height>611</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/map.jpg);</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>940</x>
+            <y>3910</y>
+            <width>161</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton
+{
+color:white;
+background-color:rgb(216, 175, 80);
+border-width:0px;
+border-radius:4px;
+
+}
+#pushButton_register:hover{
+background-color:rgb(188, 116, 1);
+
+}</string>
+          </property>
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
         </widget>
        </item>
       </layout>
