@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QDialog" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1095</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QScrollBar:vertical{
+
+border:none;
+background-color: rgb(255, 237, 181);
+width: 14px;
+margin: 15px 0 15px 0;
+border-radius:0px;
+}
+QScrollBar::handle:vertical{
+
+	
+background-color: rgb(143, 170, 107);
+min-height:30px;
+border-radius:7px;
+}
+
+QScrollBar::handle:vertical:hover
+{
+	
+	background-color: rgb(124, 140, 98);
+}
+QScrollBar::handle:vertical:pressed
+{
+	
+	background-color: rgb(99, 129, 86);
+}
+
+
+QScroolBar::sub-line:vertical{
+border:none;
+background-color: rgb(99, 129, 86);
+height:15px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+subcontrol-position:top;
+subcontrol-origin:margin;
+}
+QScrollBar::sub-line:vertical:hover
+{
+	
+	background-color: rgb(99, 129, 86);
+}
+QScrollBar::sub-line:vertical:pressed
+{
+	background-color: rgb(99, 129, 86);
+}
+QScrollBar::add-line:vertical{
+border:none;
+background-color: rgb(255, 237, 181);
+height:15px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+subcontrol-position:top;
+subcontrol-origin:margin;
+}
+QScrollBar::add-line:vertical:hover
+{
+	
+	background-color: rgb(255, 237, 181);
+}
+QScrollBar::add-line:vertical:pressed
+{
+	background-color: rgb(255, 237, 181);
+}
+
+QScrollBar::up-arrow:vertical,QScrollBar::down-arrow:vertical
+{
+baclground:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{
+background:none;
+}
+
+
+
+
+
+QScrollBar:horizontal
+{
+border:none;
+background-color: rgb(255, 255, 255);
+width: 14px;
+margin: 15px 0 15px 0;
+border-radius:0px;
+}
+QScrollBar::handle:horizontal{
+
+	
+background-color: rgb(143, 170, 107);
+min-height:30px;
+border-radius:7px;
+}
+
+QScrollBar::handle:horizontal:hover
+{
+	
+	background-color: rgb(124, 140, 98);
+}
+QScrollBar::handle:horizontal:pressed
+{
+	
+	background-color: rgb(99, 129, 86);
+}
+
+
+QScroolBar::sub-line:horizontal{
+border:none;
+background-color: rgb(99, 129, 86);
+height:15px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+subcontrol-position:top;
+subcontrol-origin:margin;
+}
+QScrollBar::sub-line:horizontal:hover
+{
+	
+	background-color: rgb(99, 129, 86);
+}
+QScrollBar::sub-line:horizontal:pressed
+{
+	background-color: rgb(99, 129, 86);
+}
+QScrollBar::add-line:horizontal{
+border:none;
+background-color: rgb(255, 237, 181);
+height:15px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+subcontrol-position:top;
+subcontrol-origin:margin;
+}
+QScrollBar::add-line:horizontal:hover
+{
+	
+	background-color: rgb(255, 237, 181);
+}
+QScrollBar::add-line:horizontal:pressed
+{
+	background-color: rgb(255, 237, 181);
+}
+
+QScrollBar::up-arrow:horizontal,QScrollBar::down-arrow:horizontal
+{
+baclground:none;
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal{
+background:none;
+}
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="styleSheet">
+      <string notr="true">QScrollBar:vertical
+{
+border:none;
+background-color: rgb(255, 237, 181);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1222</width>
+        <height>1222</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>1200</width>
+           <height>1200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame{
+
+	background-color: rgb(255, 252, 178);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>luvre1.png</file>
+        <file>louvre2.png</file>
+        <file>louvre-museum1.jpg</file>
+        <file>louvre-museum2.jpg</file>
+        <file>louvre-museum3.jpg</file>
+        <file>museum_louvre4.png</file>
+        <file>louvre_7.jpg</file>
+    </qresource>
+</RCC>
