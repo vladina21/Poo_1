@@ -1,0 +1,16 @@
+﻿  Admin.cpp
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\IPersoana.h(15,34): error C2065: 'Persoana': undeclared identifier
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\IPersoana.h(15,43): error C2059: syntax error: '>'
+  DataBase.cpp
+  IPersoana.cpp
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\Persoana.h(4,1): error C2504: 'IPersoana': base class undefined
+  Log.cpp
+  Persoana.cpp
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\IPersoana.h(15,34): error C2065: 'Persoana': undeclared identifier
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\IPersoana.h(15,43): error C2059: syntax error: '>'
+  Rezervare.cpp
+  Source.cpp
+  Vizitator.cpp
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\IPersoana.h(15,34): error C2065: 'Persoana': undeclared identifier
+D:\ATM Calc\Anul II\SEMESTRUL II\POO-Proiect\Muzeu\Muzeu\IPersoana.h(15,43): error C2059: syntax error: '>'
+  Generating Code...
