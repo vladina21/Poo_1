@@ -10,6 +10,10 @@ CONFIG += c++17
 
 SOURCES += \
     about.cpp \
+    contact.cpp \
+    events.cpp \
+    expozitii_si_evenimente.cpp \
+    giorgio.cpp \
     main.cpp \
     mainwindow.cpp \
     meniuadministrator.cpp \
@@ -18,6 +22,10 @@ SOURCES += \
 
 HEADERS += \
     about.h \
+    contact.h \
+    events.h \
+    expozitii_si_evenimente.h \
+    giorgio.h \
     mainwindow.h \
     meniuadministrator.h \
     register.h \
@@ -25,6 +33,10 @@ HEADERS += \
 
 FORMS += \
     about.ui \
+    contact.ui \
+    events.ui \
+    expozitii_si_evenimente.ui \
+    giorgio.ui \
     mainwindow.ui \
     meniuadministrator.ui \
     register.ui \
@@ -37,3 +49,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     resurse.qrc
+
+DISTFILES += \
+    giorgio2.jpg

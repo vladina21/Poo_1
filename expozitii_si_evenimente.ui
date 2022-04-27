@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Expozitii_si_evenimente</class>
+ <widget class="QDialog" name="Expozitii_si_evenimente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1321</width>
+    <height>808</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  rgb(255, 251, 207);</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>-150</x>
+     <y>-1</y>
+     <width>1471</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>20</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>LOUVRE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>661</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Pedro Cabrita Reis, The Three Graces, 2022</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>361</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>A monumental artwork in the Tuileries Garden</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>12 May-27 June</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>1251</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>The cross-cultural France-Portugal Season 2022, a joint initiative announced by the President of the French Republic and the Prime Minister of Portugal, will be staged simultaneously in both
+countries from 12 February to 31 October 2022. 
+The Musée du Louvre has invited the artist Pedro Cabrita Reis (born 1956) to design a monumental artwork for display in the Tuileries Garden. A key figure on the Portuguese art scene,
+Pedro Cabrita Reis has gained worldwide recognition. In particular, he was featured in documenta 9 (Kassel, 1992) and he represented Portugal at the Venice Biennale in 2003. His artworks —
+— sculptures, paintings, drawings, photographs — are found in the collections of the world’s leading contemporary art museums. 
+Cabrita likes to work with materials used in architecture and enjoys the challenge of adapting his creations to specific sites. In The Three Graces he tackles tradition to bring a fresh take on an
+ancient theme, widely present in the Louvre’s collections, especially in Greco-Roman art. The marble and bronze pieces in the Tuileries Garden – legacies of the century of King Louis XIV
+or works imbued with the academic spirit of the 19th century – add a further unexpected twist to this dialogue. The Three Graces combine three stand-alone elements, all made of painted
+ cork; each element, about four and a half metres high and weighing almost five hundred kilograms, rests on a Corten steel base of approximately four hundred kilograms.Construction took
+place on the site of Corticeira Amorim, Portugal’s leading cork company, which was closely involved in this project. The choice to use cork also resonates with one of the key themes of the
+France-Portugal Season 2022, setting sustainable development at the heart of its agenda. </string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>450</y>
+     <width>531</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/pedro.jpg);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>450</y>
+     <width>461</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/pedro2.webp);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>760</y>
+     <width>111</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton
+{
+color:white;
+background-color:rgb(216, 175, 80);
+border-width:0px;
+border-radius:4px;
+
+}
+#pushButton_register:hover{
+background-color:rgb(188, 116, 1);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
