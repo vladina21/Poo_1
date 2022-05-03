@@ -3,6 +3,7 @@
 #include <mysql.h>
 #include <iostream>
 #include <sstream>
+#include"ISchema.h"
 
 using namespace std;
 
@@ -28,7 +29,16 @@ class DataBase
 	}
 public:
 	static DataBase* getInstance();
-	bool logare(string username, string parola);
-	bool inregistrare(string username, string parola);
+	bool logare(ISchema * logare);
+	bool inregistrare(ISchema * inregistrare);
+	bool adaugaRezervare(ISchema * rezervare);
+	bool afiseazaRezervare();
+	bool updateRezervare(ISchema* update);
+	bool adaugareOpera(ISchema* adauga);
+	bool mutaOpera(ISchema* muta);
+	bool afiseazaOpera();
+	bool adaugaEveniment(ISchema* adauga);
+	bool stergeEveniment(ISchema* sterge);
+	bool afiseazaEveniment();
 };
 
